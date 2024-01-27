@@ -65,6 +65,7 @@ header nav {
 }
 
 #menu {
+    display: none;
     position: relative;
     padding: 20px;
 }
