@@ -64,7 +64,20 @@ header nav {
     transform: scale(1.1);
 }
 
-
+#menu {
+    position: relative;
+    padding: 20px;
+}
+#menu ul {
+    
+    text-transform: capitalize;
+    text-align: right;
+}
+#menu ul li {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin: 5px;
+}
 
 
 @media screen and (min-width: 800px) {
