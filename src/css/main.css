@@ -5,8 +5,13 @@
     position: relative;
     z-index: 1;
     user-select: none;
+    touch-action: none;
     height: 50vh;
 }
+
+#botao-menu::selection {
+    background: transparent;
+  }
 
 #section-um { 
     height: 70vh;
