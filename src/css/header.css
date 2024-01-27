@@ -4,6 +4,7 @@ header {
     position: relative;
     z-index: 2;
     user-select: none;
+    touch-action: manipulation;
 }
 
 header nav {
