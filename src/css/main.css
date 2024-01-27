@@ -5,7 +5,6 @@
     position: relative;
     z-index: 1;
     user-select: none;
-    touch-action: none;
     height: 50vh;
 }
 
