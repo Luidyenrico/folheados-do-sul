@@ -1,0 +1,41 @@
+header {
+    background-color: black;
+    padding: 0px 30px;
+    box-shadow: 0px 3px 10px 10px rgba(0, 0, 0, 0.603);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+#logo-header {
+    height: 125px;
+}
+
+#social {
+    text-align: center;
+}
+
+#social li {
+    display: inline-block;
+    transition: 0.2s;
+}
+
+#social li:hover {
+    transform: scale(1.2);
+
+}
+
+.social-media {
+    width: 40px;
+}
+
+#botao-menu {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 27px;
+}
