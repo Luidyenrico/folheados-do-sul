@@ -18,11 +18,11 @@ function Abre_Fecha_Menu () {
     botaoMenu.addEventListener("click", function() {
         if (menuOpcoes.style.display == 'block') {
             menuOpcoes.style.display = 'none'
-            botaoMenu.src = "../../src/imagens/menu.png"
+            botaoMenu.src = "./src/imagens/menu.png"
             botaoMenu.style.width = '27px'
        } else {
             menuOpcoes.style.display = 'block'
-            botaoMenu.src = "../../src/imagens/fechar.png"
+            botaoMenu.src = "./src/imagens/fechar.png"
             botaoMenu.style.width = '20px'
        }
     })
