@@ -8,10 +8,6 @@
     height: 50vh;
 }
 
-#botao-menu::selection {
-    background: transparent;
-  }
-
 #section-um { 
     height: 70vh;
     background-color: #565656;
