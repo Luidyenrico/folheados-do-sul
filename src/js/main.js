@@ -28,5 +28,20 @@ function Abre_Fecha_Menu () {
     })
 }
 
+function Modifica_texto () {
+    let texto = document.getElementById('titulo-section-tres')
+    let larguraTela = document.documentElement.clientWidth;
+
+    if (larguraTela >= 785) {
+    texto.innerHTML = 'Do clássico ao contemporâneo';
+    } else if(larguraTela < 785) {
+        texto.innerHTML = 'Do clássico ao contemporâneo, nossas joias são a expressão perfeita do seu estilo.';
+    }
+}
+
+
+
+Modifica_texto()
+window.addEventListener('resize', Modifica_texto);
 Abre_Fecha_Menu()
 Abre_Pagina()
