@@ -1,0 +1,17 @@
+#section-cinco { 
+    height: 75vh;
+    background-image: url(../imagens/background-2-mobile.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #0E0E0E;
+}
+
+@media screen and (min-width: 800px) {
+    #section-cinco {
+        background-image: url(../imagens/background-3-desktop.png);
+        background-size: cover;
+        background-position: center right;
+        background-repeat: no-repeat;
+    }
+}

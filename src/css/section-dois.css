@@ -1,0 +1,55 @@
+#section-dois { 
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+#section-dois h2 {
+    font-weight: 600;
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.212);
+    font-size: 1.1em;
+
+}
+
+#texto-section-dois {
+    width: 40%;
+}
+
+
+#imagem-section-dois {
+    background-image: url(../imagens/tres-joias-ouro.png);
+    background-position: center center;
+    background-size: cover;
+    height: 220px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+
+@media screen and (min-width: 800px) {
+    #imagem-section-dois {
+        transform: scale(1.4);
+    }
+
+    #section-dois {
+        justify-content: center;
+        padding: 0px;
+        gap: 25%;
+    }
+
+    #section-dois h2 {
+        font-size: 2.2em;
+        letter-spacing: 1px;
+    }
+
+}
+
+
+@media screen and (max-width: 799px) {
+    #section-dois {
+        padding: 0px 35px;
+    }
+}

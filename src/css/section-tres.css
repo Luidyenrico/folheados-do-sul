@@ -1,0 +1,71 @@
+#section-tres { 
+    padding: 40px 0px 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    background-color: #0E0E0E;
+    color: #FFF;
+}
+
+#texto-section-tres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#texto-section-tres p {
+    display: none;
+}
+
+#texto-section-tres h2 {
+    font-size: 1.2em;
+    width: 80%;
+}
+
+#imagem-section-tres {
+    background-image: url(../imagens/joia-prata.png);
+    background-position: center center;
+    background-size: cover;
+    height: 230px;
+    width: 180px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 150px 50px #ffffff50;
+}
+
+
+@media screen and (min-width: 800px) {
+    #texto-section-tres p {
+        display: initial;
+        width: 80%;
+        font-size: 1.2em;
+    }
+
+    #section-tres { 
+        padding: 0px 50px 0px 50px;
+        justify-content: center;
+        gap: 200px;
+        flex-direction: row;
+        
+    }
+
+    #texto-section-tres h2 {
+        font-size: 2em;
+        letter-spacing: 3px;
+    }
+
+    #imagem-section-tres {
+        margin-left: 40px;
+        transform: scale(1.4);
+    }
+
+    #texto-section-tres {
+        width: 60%;
+        gap: 20px;
+        padding-left: 50px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
