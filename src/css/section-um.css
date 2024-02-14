@@ -14,8 +14,10 @@
     justify-content: space-between;
 }
 
+#section-1-imagem-1 { background-image: url(../imagens/imagem-1-1.png);}
+#section-1-imagem-2 { background-image: url(../imagens/joia-prata-2.png);}
+
 .imagens-section-um {
-    background-image: url(../imagens/imagem-1-1.png);
     background-position: center center;
     background-size: cover;
     height: 173px;
@@ -25,51 +27,45 @@
 #div-um-section-um {
     display: flex;
     flex-direction: row;
-    margin-right: auto;
-
 }
 
-#div-um-section-um h1 {
-    margin-top: auto;
-    width: 60px;
-
+.divs-externas {
+    display: flex;
+    width: 50vw;
 }
 
-#div-um-section-um div {
-    margin-left: 65px;
+#div-externa-1 {
+    background-color: rgba(255, 228, 196, 0);
+    justify-content: end;
+    
+}
+#div-externa-2 {
+    background-color: rgba(0, 204, 255, 0);
+    justify-content: center;
+    align-items: flex-end;
+}
+#div-externa-3 {
+    background-color: rgba(0, 218, 11, 0);
+    justify-content: center;
+}
+#div-externa-4 {
+    background-color: rgba(194, 0, 0, 0);
+}
+
+#div-um-section-um .imagens-section-um {
     border-radius: 0px 0px 7px 7px;
     border: solid 2px #FFF;
 }
 
-
-
-
-
-
-
 #div-dois-section-um {
     display: flex;
     flex-direction: row;
-    margin-left: auto;
 }
 
-#div-dois-section-um div {
+#div-dois-section-um .imagens-section-um {
     border-radius: 7px 7px 0px 0px;
     border: solid 2px #FFF;
-    margin-right: 65px;
 }
-
-#div-dois-section-um h2 {
-    margin-bottom: auto;
-}
-
-
-
-
-
-
-
-
 
 
 #div-dois-section-um h2 {
@@ -78,10 +74,25 @@
 }
 
 
+@media screen and (max-width: 399px) {
+    .imagens-section-um {
+        height: 143px;
+        width: 146px;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    #div-externa-2 {
+        align-items: center;
+    }
+    #div-externa-3 {
+        align-items: center;
+    }
+}
 
 @media screen and (min-width: 800px) {
     #section-um {
-        height: 70vh;
+        height: 50vh;
         background-image: url(../imagens/background-1-desktop.png);
         background-size: cover;
         background-position: center center;
