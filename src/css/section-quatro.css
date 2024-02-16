@@ -2,6 +2,58 @@
     background-color: #BABDBF;
 }
 
+#section-quatro {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    padding: 10vw;
+}
+
+.div-section-quatro {
+    display: flex;
+    justify-content: center;
+}
+
+.div-section-quatro p {
+    font-weight: bold;
+    text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.3);
+    width: 60vw;
+}
+
+.div-section-quatro button {
+    background-color: #E7E7E7;
+    font-weight: bold;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.575);
+    width: 40vw;
+    height: 60px;
+    border: none;
+    border-radius: 25px;
+    transition: 0.2s;
+}
+
+.div-section-quatro button:hover {
+    transform: scale(1.1);
+}
+
+#section-quatro img {
+    width: 150px;
+    border-radius: 20px;
+    border: solid 3px #FFF;
+}
+
+
+
+/*
+#imagem-section-quatro {
+    background-image: url(../imagens/alianca-vermelho.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border: solid 3px #FFF;
+    width: 50vw;
+    height: max-content;
+}*/
 
 
 

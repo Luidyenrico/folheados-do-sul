@@ -90,6 +90,25 @@
     }
 }
 
+@media screen and (min-width: 600px) {
+    .imagens-section-um {
+        height: 203px;
+        width: 226px;
+    }
+
+    #div-externa-1 {
+        padding-right: 50px;
+    }
+
+    #div-externa-4 {
+        padding-left: 50px;
+    }
+
+    h1 {
+        
+    }
+}
+
 @media screen and (min-width: 800px) {
     #section-um {
         height: 50vh;
