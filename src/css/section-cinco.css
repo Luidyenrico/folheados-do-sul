@@ -10,17 +10,35 @@
 #section-cinco {
     display: flex;
     flex-direction: column;
-    padding: 10vw;
+    padding: 0px 10vw;
 
 }
 
 .div-section-cinco {
-    height: 25vh;
+    height: 35%;
     color: #fff;
+}
+
+#div-texto-mapa {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#div-mapa {
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 
 .div-section-cinco h2 {
     margin: 10px 0px;
+}
+
+.div-section-cinco iframe {
+    height: 300px;
+    border-radius: 20px;
+    border: 3px solid #fff;
 }
 
 @media screen and (min-width: 800px) {
@@ -29,5 +47,9 @@
         background-size: cover;
         background-position: center right;
         background-repeat: no-repeat;
+    }
+
+    #section-cinco {
+        flex-direction: row;
     }
 }
