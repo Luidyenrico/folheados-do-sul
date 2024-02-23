@@ -7,6 +7,22 @@
     background-color: #0E0E0E;
 }
 
+#section-cinco {
+    display: flex;
+    flex-direction: column;
+    padding: 10vw;
+
+}
+
+.div-section-cinco {
+    height: 25vh;
+    color: #fff;
+}
+
+.div-section-cinco h2 {
+    margin: 10px 0px;
+}
+
 @media screen and (min-width: 800px) {
     #section-cinco {
         background-image: url(../imagens/background-3-desktop.png);
