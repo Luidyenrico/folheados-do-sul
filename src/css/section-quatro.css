@@ -5,13 +5,22 @@
 #section-quatro {
     display: flex;
     flex-direction: column;
-    gap: 5vh;
-    padding: 10vw;
+    padding: 10px 0px;
 }
 
 .div-section-quatro {
     display: flex;
     justify-content: center;
+    height: 35%;
+}
+
+.div-section-quatro:first-child {
+    align-items: end;
+}
+
+#div-imagem-section-quatro {
+    height: 100%;
+    align-items: center;
 }
 
 .div-section-quatro p {
@@ -37,25 +46,10 @@
 
 #section-quatro img {
     width: 150px;
+    height: 150px;
     border-radius: 20px;
     border: solid 3px #FFF;
 }
-
-
-
-/*
-#imagem-section-quatro {
-    background-image: url(../imagens/alianca-vermelho.png);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 20px;
-    border: solid 3px #FFF;
-    width: 50vw;
-    height: max-content;
-}*/
-
-
 
 @media screen and (min-width: 800px) {
     #section-quatro {

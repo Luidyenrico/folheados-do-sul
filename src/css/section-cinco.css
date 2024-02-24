@@ -25,6 +25,10 @@
     justify-content: flex-end;
 }
 
+#div-texto-mapa h2 {
+    color: #FFF48C;
+}
+
 #div-mapa {
     display: flex;
     align-items: center;
@@ -37,8 +41,10 @@
 
 .div-section-cinco iframe {
     height: 300px;
+    width: 82vw;
     border-radius: 20px;
     border: 3px solid #fff;
+    transform: translateY(-15px);
 }
 
 @media screen and (min-width: 800px) {
@@ -50,6 +56,13 @@
     }
 
     #section-cinco {
+        justify-content: space-between;
         flex-direction: row;
+    }
+
+    .div-section-cinco iframe {
+        height: 400px;
+        width: 33vw;
+        transform: translateY(0px);
     }
 }
