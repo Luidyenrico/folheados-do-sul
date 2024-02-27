@@ -69,15 +69,16 @@
     }
     .div-section-quatro button {
         cursor: pointer;
-        width: 20vw;
+        width: 18vw;
         font-size: 1.05em;
         letter-spacing: 2px;
         
     }
 
     #section-quatro img {
-        width: 270px;
-        height: 270px;
+        width: 300px;
+        height: 300px;
+        border: solid 4px #FFF;
     }
 
     .div-section-quatro {
