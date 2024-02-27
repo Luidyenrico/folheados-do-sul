@@ -25,7 +25,7 @@
 
 .div-section-quatro p {
     font-weight: bold;
-    text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.3);
+    text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.205);
     width: 60vw;
 }
 
@@ -33,11 +33,13 @@
     background-color: #E7E7E7;
     font-weight: bold;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.575);
-    width: 40vw;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.26);
+    width: 60vw;
     height: 60px;
     border: none;
-    border-radius: 25px;
+    border-radius: 30px;
     transition: 0.2s;
+    
 }
 
 .div-section-quatro button:hover {
@@ -51,11 +53,40 @@
     border: solid 3px #FFF;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 600px) {
+    .div-section-quatro button {
+        width: 40vw;
+    }
+}
+
+@media screen and (min-width: 900px) {
     #section-quatro {
         background-image: url(../imagens/background-2-desktop.png);
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
+        flex-direction: row;
+    }
+    .div-section-quatro button {
+        cursor: pointer;
+        width: 20vw;
+        font-size: 1.05em;
+        letter-spacing: 2px;
+        
+    }
+
+    #section-quatro img {
+        width: 270px;
+        height: 270px;
+    }
+
+    .div-section-quatro {
+        width: 25%;
+        height: 270px;
+    }
+
+    .div-section-quatro p {
+        width: 15vw;
+        font-size: 1.5em;
     }
 }
